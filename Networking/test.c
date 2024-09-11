@@ -13,7 +13,7 @@ void launch(struct Server *server)
 
     read(new_socket, buffer, 30000);
     printf("%s\n", buffer);
-    char *hello = "HTTP/1.1 200 OK\nContent-Type: text/plain\nContent-Length: 12\n\nHello world!";
+    char *hello = "HTTP/1.1 200 OK\nContent-Type: text/plain\nContent-Length: 12\n\nSHREYAS SHUKLA!";
     write(new_socket, hello, strlen(hello));
     close(new_socket);
 }
