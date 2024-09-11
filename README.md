@@ -10,6 +10,11 @@ These instructions will help you set up and run the web server on your local mac
 
 Make sure you have a C compiler installed on your system. This project uses `gcc` for compilation, so ensure that `gcc` is installed.
 
+### Running The Program
+
+1) gcc Networking/test.c DataStructures/Common/Node.c DataStructures/Lists/LinkedList.c DataStructures/Lists/Queue.c Networking/Server.c
+2) ./a.out
+
 To check if `gcc` is installed, run:
 
 ```bash
@@ -30,6 +35,5 @@ brew install gcc                # For macOS with Homebrew
 │   └── test.c
 └── README.md
 
-gcc Networking/test.c DataStructures/Common/Node.c DataStructures/Lists/LinkedList.c DataStructures/Lists/Queue.c Networking/Server.c -o webserver
-./webserver
+
 
