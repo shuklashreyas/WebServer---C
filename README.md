@@ -14,6 +14,7 @@ Make sure you have a C compiler installed on your system. This project uses `gcc
 
 1) gcc Networking/test.c DataStructures/Common/Node.c DataStructures/Lists/LinkedList.c DataStructures/Lists/Queue.c Networking/Server.c
 2) ./a.out
+3) Visit : http://localhost:8080/
 
 To check if `gcc` is installed, run:
 
